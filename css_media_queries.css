@@ -1,0 +1,115 @@
+@media (min-width:600px) and (max-width:900px){
+    /* Girl image section================================================================= */
+    .girl{
+        width: 10%;
+        height: 70vh;
+        transform: translateX(30%);
+        position: relative;
+        z-index: 3;
+    }
+    .girl img{
+        width: auto;
+        height: 58%;
+    }
+    
+    /* Form section======================================================================== */
+    .form{
+        width: 60%;
+        height: 70vh;
+    }
+    .form h1{
+        margin: 0 0 5% 0;
+        font-size: 1.6rem;
+    }
+    .form label{
+        width: 80%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .form label i{
+        width: 7%;
+        height: 40%;
+        margin: 15px 0 0 0;
+        padding: 6px 0 0 11px;
+        font-size: 1.1rem;
+    }
+    .form label input{
+        width: 90%;
+        margin: 5% 0 0 0;
+        border-radius: 5px;
+        padding: 20px 25px;
+    }
+    .form button{
+        margin: 20% 0 0 0;
+        width: 80%;
+        padding: 15px 10px;
+    }
+    
+    /* Plant image section================================================================ */
+    .plant{
+        width: 10%;
+        height: 70vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        transform: translateX(-68%);
+        z-index: 1;
+        margin: 30% 0 0 0;
+    }
+    .plant img{
+        margin: 65% 0 0 0;
+        width: auto;
+        height: 30%;
+    }
+    
+}
+
+@media (min-width:250px) and (max-width:600px){
+    /* Girl image section================================================================= */
+    .girl{
+       display: none;
+    }
+    /* Form section======================================================================== */
+    .form{
+        width: 95%;
+        height: 90vh;
+    }
+    .form h1{
+        height: 15vh;
+        margin: 5% 0 5% 0;
+        padding: 15% 0 0 0;
+        font-size: 1.6rem;
+    }
+    .form label{
+        width: 95%;
+        height: 10%;
+    }
+    .form label i{
+        width: 7%;
+        height: 40%;
+        margin: 25px 0 0 0;
+        padding: 3px 0 0 11px;
+        font-size: 1.2rem;
+    }
+    .form label input{
+        width: 90%;
+        margin: 5% 0 0 0;
+        border-radius: 5px;
+        padding: 20px 25px;
+    }
+    .form button{
+        height: 10vh;
+        margin: 12% 0 0 0;
+        width: 90%;
+        padding: 15px 10px;
+    }
+    
+    /* Plant image section================================================================ */
+    .plant{
+        display: none;
+    }
+}
+
+
+
